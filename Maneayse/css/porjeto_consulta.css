@@ -96,7 +96,7 @@ footer a:hover {
 
 }
 
-footer iconify-icon{
+footer iconify-icon {
     margin: 0 5px 0 0;
 }
 
@@ -116,7 +116,7 @@ footer iconify-icon{
     color: #2274AC;
 }
 
-.titulo img{
+.titulo img {
     margin: 0 30px 0 0;
 }
 
@@ -128,10 +128,10 @@ section nav {
 }
 
 section nav a {
-text-decoration: none;
-color: #474545;
-margin: 50px;
-font-size: 20px;
+    text-decoration: none;
+    color: #474545;
+    margin: 50px;
+    font-size: 20px;
 }
 
 
@@ -150,7 +150,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 90vh;
+    width: 90%;
 }
 
 .pesquisa_projeto p {
@@ -159,10 +159,10 @@ section {
     font-size: 20px;
 }
 
-.btn_pesquisar{
-font-size: 50px;
-color: #6E6E6E;
-padding: 0 0 0 20px;
+.btn_pesquisar {
+    font-size: 50px;
+    color: #6E6E6E;
+    padding: 0 0 0 20px;
 }
 
 
@@ -186,5 +186,22 @@ padding: 0 0 0 20px;
     border-radius: 100px;
     width: 350px;
     padding: 10px 10px 10px 30px;
+    border: 1px solid #474545;
 }
 
+.lista_projetos{
+    width: ;
+}
+
+div h2 {
+    font-family: 'Jost', sans-serif;
+    color: #474545;
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+
+}
+
+table{
+    border-bottom: 1px solid #47454533;
+
+}
