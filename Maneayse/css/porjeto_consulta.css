@@ -111,8 +111,8 @@ footer iconify-icon {
     display: flex;
     align-items: center;
     margin: 50px 0 0 100px;
-    font-family: 'League Spartan', sans-serif;
-    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
     color: #2274AC;
 }
 
@@ -127,10 +127,17 @@ section nav {
     font-family: 'Jost', sans-serif;
 }
 
+.nav_cadastrar{
+    margin: 50px 30px 50px 0;
+}
+
+.nav_consultar{
+    margin: 50px 0px 50px 30px;
+}
+
 section nav a {
     text-decoration: none;
     color: #474545;
-    margin: 50px;
     font-size: 20px;
 }
 
@@ -150,7 +157,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+
 }
 
 .pesquisa_projeto p {
@@ -159,39 +166,49 @@ section {
     font-size: 20px;
 }
 
-.btn_pesquisar {
-    font-size: 50px;
+.pesquisa_projeto1{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+div>.btn_pesquisar {
+    display: flex;
+    align-items: flex-end;
+    font-size: 45px;
     color: #6E6E6E;
     padding: 0 0 0 20px;
 }
 
+label{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
 
-.input-icons iconify-icon {
+
+.icon {
     position: absolute;
+    padding: 7.5px 20px 7.5px 10px;
+    align-items: center;
+    color: #474545;
+    min-width: 40px;
+    font-size: 25px;
 }
 
 .input-icons {
     width: 30%;
-    margin-bottom: 10px;
-}
-
-.icon {
-    padding-top: 10px;
-    color: #474545;
-    min-width: 40px;
 }
 
 .input-field {
     background: transparent;
     border-radius: 100px;
     width: 350px;
-    padding: 10px 10px 10px 30px;
+    padding: 10px 10px 10px 40px;
     border: 1px solid #474545;
 }
 
-.lista_projetos{
-    width: ;
-}
 
 div h2 {
     font-family: 'Jost', sans-serif;
